@@ -1,0 +1,33 @@
+1. Which of these areas excites you most? (rank or select top 5)
+Application security / vulnerability research/cybersecurity 
+Backend development 
+Code analysis (static/dynamic) 
+AI/ML model development & LLM integration
+Developer tooling & automation
+
+2. Where do you prefer to work in a software stack?
+Mostly Backend
+
+3. Which type of engineering work appeals to you more?
+Building user-facing products & features
+
+4. What frustrates you most about security tooling today? (2–3 sentences)
+
+
+5. If you had a week to build anything combining AI + security, what would you build? 
+I would build an AI code review agent that combines static and dynamic analysis.
+It would ingest raw static analysis alerts and cross-reference them with runtime execution traces from dynamic
+profiling tools like Valgrind. By correlating static code warnings with actual runtime memory behavior, the agent
+could definitively filter out false positives, highlight the exact execution path of the vulnerability, and automatically
+draft targeted mitigation PRs for confirmed memory safety issues.
+
+6. Which deployment and runtime environment interests you most?
+No preference
+
+7. How comfortable are you reading security advisories, CVEs, or vulnerability disclosures?
+Willing to learn
+
+8. What's your reaction when an AI tool produces a false positive? (2–3 sentences)
+I treat it as a limitation of the current technology and an opportunity to refine my prompting or
+enhance the context. I usually adjust the constraints, provide examples, or break down the task down into
+smaller, tasks to guide the LLM back on track.
