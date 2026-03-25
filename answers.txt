@@ -12,7 +12,9 @@ Mostly Backend
 Building user-facing products & features
 
 4. What frustrates you most about security tooling today? (2–3 sentences)
-
+The exceptionally high rate of false positives often leads to alert fatigue, causing people to ignore critical warnings.
+Additionally, many tools lack contextual understanding of the specific application architecture, making integration into modern,
+fast-paced CI/CD pipelines overly rigid and noisy.
 
 5. If you had a week to build anything combining AI + security, what would you build? 
 I would build an AI code review agent that combines static and dynamic analysis.
